@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13065B0A1D9E035300141542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13065B091D9E035300141542 /* AppDelegate.swift */; };
-		13065B0C1D9E035300141542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13065B0B1D9E035300141542 /* ViewController.swift */; };
-		13065B0F1D9E035300141542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13065B0D1D9E035300141542 /* Main.storyboard */; };
 		13065B111D9E035300141542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13065B101D9E035300141542 /* Assets.xcassets */; };
 		13065B141D9E035300141542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13065B121D9E035300141542 /* LaunchScreen.storyboard */; };
 		13065B1F1D9E035400141542 /* SlideshowApp_vol2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13065B1E1D9E035400141542 /* SlideshowApp_vol2Tests.swift */; };
 		13065B2A1D9E035400141542 /* SlideshowApp_vol2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13065B291D9E035400141542 /* SlideshowApp_vol2UITests.swift */; };
+		13065B391D9E03A500141542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13065B381D9E03A500141542 /* AppDelegate.swift */; };
+		13065B3B1D9E03BC00141542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13065B3A1D9E03BC00141542 /* ViewController.swift */; };
+		13065B401D9E03E100141542 /* photo.1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13065B3C1D9E03E100141542 /* photo.1.jpg */; };
+		13065B411D9E03E100141542 /* photo.2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13065B3D1D9E03E100141542 /* photo.2.jpg */; };
+		13065B421D9E03E100141542 /* photo.3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13065B3E1D9E03E100141542 /* photo.3.jpg */; };
+		13065B431D9E03E100141542 /* photo.4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13065B3F1D9E03E100141542 /* photo.4.jpg */; };
+		13065B451D9E03F300141542 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13065B441D9E03F300141542 /* ResultViewController.swift */; };
+		13065B471D9E04EE00141542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13065B461D9E04EE00141542 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,6 @@
 
 /* Begin PBXFileReference section */
 		13065B061D9E035300141542 /* SlideshowApp.vol2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.vol2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13065B091D9E035300141542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13065B0B1D9E035300141542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13065B0E1D9E035300141542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13065B101D9E035300141542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13065B131D9E035300141542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13065B151D9E035300141542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,15 @@
 		13065B251D9E035400141542 /* SlideshowApp.vol2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowApp.vol2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13065B291D9E035400141542 /* SlideshowApp_vol2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowApp_vol2UITests.swift; sourceTree = "<group>"; };
 		13065B2B1D9E035400141542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13065B371D9E03A400141542 /* SlideshowApp.vol2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideshowApp.vol2-Bridging-Header.h"; sourceTree = "<group>"; };
+		13065B381D9E03A500141542 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13065B3A1D9E03BC00141542 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13065B3C1D9E03E100141542 /* photo.1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.1.jpg; sourceTree = "<group>"; };
+		13065B3D1D9E03E100141542 /* photo.2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.2.jpg; sourceTree = "<group>"; };
+		13065B3E1D9E03E100141542 /* photo.3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.3.jpg; sourceTree = "<group>"; };
+		13065B3F1D9E03E100141542 /* photo.4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.4.jpg; sourceTree = "<group>"; };
+		13065B441D9E03F300141542 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		13065B461D9E04EE00141542 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +108,18 @@
 		13065B081D9E035300141542 /* SlideshowApp.vol2 */ = {
 			isa = PBXGroup;
 			children = (
-				13065B091D9E035300141542 /* AppDelegate.swift */,
-				13065B0B1D9E035300141542 /* ViewController.swift */,
-				13065B0D1D9E035300141542 /* Main.storyboard */,
+				13065B381D9E03A500141542 /* AppDelegate.swift */,
+				13065B3A1D9E03BC00141542 /* ViewController.swift */,
+				13065B3C1D9E03E100141542 /* photo.1.jpg */,
+				13065B3D1D9E03E100141542 /* photo.2.jpg */,
+				13065B3E1D9E03E100141542 /* photo.3.jpg */,
+				13065B3F1D9E03E100141542 /* photo.4.jpg */,
+				13065B461D9E04EE00141542 /* Main.storyboard */,
+				13065B441D9E03F300141542 /* ResultViewController.swift */,
 				13065B101D9E035300141542 /* Assets.xcassets */,
 				13065B121D9E035300141542 /* LaunchScreen.storyboard */,
 				13065B151D9E035300141542 /* Info.plist */,
+				13065B371D9E03A400141542 /* SlideshowApp.vol2-Bridging-Header.h */,
 			);
 			path = SlideshowApp.vol2;
 			sourceTree = "<group>";
@@ -230,8 +247,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13065B141D9E035300141542 /* LaunchScreen.storyboard in Resources */,
+				13065B411D9E03E100141542 /* photo.2.jpg in Resources */,
 				13065B111D9E035300141542 /* Assets.xcassets in Resources */,
-				13065B0F1D9E035300141542 /* Main.storyboard in Resources */,
+				13065B471D9E04EE00141542 /* Main.storyboard in Resources */,
+				13065B421D9E03E100141542 /* photo.3.jpg in Resources */,
+				13065B401D9E03E100141542 /* photo.1.jpg in Resources */,
+				13065B431D9E03E100141542 /* photo.4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13065B0C1D9E035300141542 /* ViewController.swift in Sources */,
-				13065B0A1D9E035300141542 /* AppDelegate.swift in Sources */,
+				13065B3B1D9E03BC00141542 /* ViewController.swift in Sources */,
+				13065B391D9E03A500141542 /* AppDelegate.swift in Sources */,
+				13065B451D9E03F300141542 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +315,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		13065B0D1D9E035300141542 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13065B0E1D9E035300141542 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		13065B121D9E035300141542 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -399,10 +413,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideshowApp.vol2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.natsumi.okusada.SlideshowApp-vol2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideshowApp.vol2/SlideshowApp.vol2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideshowApp.vol2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.natsumi.okusada.SlideshowApp-vol2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideshowApp.vol2/SlideshowApp.vol2-Bridging-Header.h";
 			};
 			name = Release;
 		};

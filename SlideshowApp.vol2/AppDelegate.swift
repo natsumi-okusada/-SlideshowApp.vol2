@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SlideshowApp.vol2
+//  lesson5.kadai
 //
-//  Created by natsumi on 2016/09/30.
+//  Created by natsumi on 2016/09/22.
 //  Copyright © 2016年 natsumi.okusada. All rights reserved.
 //
 
